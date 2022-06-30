@@ -26,7 +26,7 @@ class SearchBar extends Component {
         return (
             <form onSubmit={this.onFormSubmit} className="input-group">
                 <input 
-                    placeholder="Get a five-day forecast in your favorite cities"
+                    placeholder="Get average temperature, pressure, and humidity over 5 days in your favorite cities"
                     className="form-control"
                     // The following attribute is to make SearchBar 
                     // a "controlled" component
